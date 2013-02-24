@@ -1,0 +1,12 @@
+DustMe2Css is a php script generates css file from csv file exported from Dust-Me Selectors. To use it, in command line type:
+
+php dustme2css.php <option>
+
+<option>:
+	    --help, -h: 			Help
+	    --input, -i [file]		Input file (from Dust-Me Selectors, include "unused selectors" and "used selectors" csv file)
+	    --output, -o [folder]	Output folder
+	    
+Example:
+			php dustme2css.php -i input.unused.csv -o unused
+			php dustme2css.php -i input.used.csv -o used
